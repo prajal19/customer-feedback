@@ -97,7 +97,7 @@ export default function FeedbackPage() {
     if (!message.trim()) {
       return "Feedback message is required";
     }
-    if (message.trim().length < 10) {
+    if (message.trim().length < 5) {
       return "Please provide at least 10 characters of feedback";
     }
     if (message.trim().length > 1000) {
